@@ -40,6 +40,3 @@ Happy coding!
 
 *WasinUddy*
 GitHub: [WasinUddy](https://github.com/WasinUddy)
-
----
-*Note: This README.md template is intended as a starting point and can be customized to suit the specific context of your repository and course.*
