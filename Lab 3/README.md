@@ -1,3 +1,5 @@
+## Lab 3: Encapsulation
+
 The door class is given below. Please implement the classes below:
 
 1. `Key` class:
