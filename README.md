@@ -6,7 +6,7 @@ Welcome to the **Advanced Computer Programming Laboratory Homework Answer Key** 
 
 ## About
 
-In this repository, you will find the source code answer keys to the homework assignments of the **2190152 Advanced Computer Programming Laboratory** course. It's important to note that these answers are provided as a reference and guideline to help you grasp the concepts and approaches required to complete your assignments successfully. **Copying and submitting the provided code as your own is strongly discouraged**, as it undermines the learning process and your own growth as a programmer.
+In this repository, you will find the source code answer keys to the homework assignments of the **2190152 Advanced Computer Programming Laboratory** course. It's important to note that these answers are provided as a reference and guideline to help you grasp the concepts and approaches required to complete your assignments successfully. **Copying and submitting the provided code as your own is strongly prohibited**, as it undermines the learning process and your own growth as a programmer.
 
 ## Acknowledgments
 
