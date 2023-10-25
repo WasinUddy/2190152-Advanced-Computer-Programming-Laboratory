@@ -23,3 +23,6 @@ The objective of this lab is to design and implement a system that allows multip
     - Manually open and close the doors, and observe the system's output.
     - Use the control center to open and close all doors, and observe the system's output.
     - Add a new door (D4) and register it with the control center.
+
+---
+I will add comments to the code later.
