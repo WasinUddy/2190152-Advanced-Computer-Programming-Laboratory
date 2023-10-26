@@ -8,6 +8,14 @@ Welcome to the **Advanced Computer Programming Laboratory Homework Answer Key** 
 
 In this repository, you will find the source code answer keys to the homework assignments of the **2190152 Advanced Computer Programming Laboratory** course. It's important to note that these answers are provided as a reference and guideline to help you grasp the concepts and approaches required to complete your assignments successfully. **Copying and submitting the provided code as your own is strongly prohibited**, as it undermines the learning process and your own growth as a programmer.
 
+---
+## Outcomes
+
+### Midterm Score
+![Midterm Score](https://github.com/WasinUddy/2190152-Advanced-Computer-Programming-Laboratory/blob/main/assets/midterm.png?raw=true)
+
+---
+
 ## Acknowledgments
 
 I would like to express my sincere gratitude to Asst. Prof. Sukree Sinthupinyo, Ph.D., for their exceptional guidance and dedication in the **2190152 Advanced Computer Programming Laboratory** course.
@@ -37,6 +45,8 @@ This repository is licensed under the [MIT License](LICENSE). Please be mindful 
 If you have any questions or need further clarification about the content in this repository, feel free to reach out.
 
 Happy coding!
+
+
 
 *WasinUddy*
 GitHub: [WasinUddy](https://github.com/WasinUddy)
