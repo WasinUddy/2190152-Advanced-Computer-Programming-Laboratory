@@ -18,7 +18,7 @@ In this repository, you will find the source code answer keys to the homework as
 
 ## Acknowledgments
 
-I would like to express my sincere gratitude to Asst. Prof. Sukree Sinthupinyo, Ph.D., for their exceptional guidance and dedication in the **2190152 Advanced Computer Programming Laboratory** course.
+I would like to express my sincere gratitude to Asst. Prof. Sukree Sinthupinyo, Ph.D., and Pitchaya Sitthi-amorn, Ph.D., for their exceptional guidance and dedication in the **2190152 Advanced Computer Programming Laboratory** course.
 
 ## How to Use This Repository
 
