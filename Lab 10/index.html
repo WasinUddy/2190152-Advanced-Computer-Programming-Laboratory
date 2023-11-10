@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive To-Do List</title>
+    <style>
+        /* Provided CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Provided HTML structure -->
+    <h1>Interactive To-Do List</h1>
+
+    <form>
+        <label for="taskInput">New Task:</label>
+        <input type="text" id="taskInput" placeholder="Enter task" required>
+        <button type="button" onclick="addTask()">Add Task</button>
+    </form>
+
+    <ul id="taskList">
+        <!-- Tasks will be added dynamically here -->
+    </ul>
+
+    <script>
+      // Enter your script here
+function addTask() {
+    var taskInput = document.getElementById('taskInput');
+    var taskList = document.getElementById('taskList');
+    
+    // Check if Task input text is not empty trim it to counter white spaces
+    if (taskInput.value.trim() !== '') {
+        
+        // Create a new list item
+        var listItem = document.createElement('li');
+
+        // Add the list item to the list
+        listItem.textContent = taskInput.value;
+
+        // Attach a click event listener to the list item to edit the task on click
+        listItem.addEventListener('click', function() {
+            editTask(listItem);
+        });
+
+        // Add it to the main list
+        taskList.appendChild(listItem);
+
+        // Clear the input text
+        taskInput.value = '';
+
+    }
+}
+
+function editTask(listItem) {
+    var newText = prompt('Edit you task:', listItem.textContent);
+
+    // Check if the new text is not empty
+    if (newText.trim() !== '' || newText !== null) {
+        listItem.textContent = newText;
+    } else {
+        // If the new text is empty, remove the list item
+        listItem.remove();
+    }
+}
+
+    </script>
+</body>
+</html>
