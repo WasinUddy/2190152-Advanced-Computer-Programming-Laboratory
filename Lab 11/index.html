@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Population Bar Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Country Population Bar Chart</h1>
+    <form id="populationForm">
+        <label for="numberOfCountries">Enter the number of countries (n):</label>
+        <input type="number" id="numberOfCountries" required>
+        <button type="button" onclick="generateChart()">Generate Chart</button>
+    </form>
+    <canvas id="barChart" width="400" height="150"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
